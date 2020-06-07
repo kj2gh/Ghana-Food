@@ -35,10 +35,32 @@ Adding an Image or URL
 ![Steps to add a new repository](https://raw.githubusercontent.com/pyruskimo/LarryTaiyeImages/master/TestImage1.PNG)
 
 
-Emojis: You can type : and then begin to type the name of an emoji - 
+Emojis: You can type : and then begin to type the name of an emoji - Go to gist.github.com/rxaviers/7360908
 :heart: - Heart
 :+1: - Thumbs up
 :sparkles:
 :tada:
 
-Ordered List
+Ordered List:
+1. Item 1
+2. Item 2
+   1. Item 1
+   2. Item 2
+
+
+Unordered List:
+* Item 1
+* Item 2:
+      * Item 1
+      
+      * Item 2
+
+
+
+
+
+
+
+
+
+
