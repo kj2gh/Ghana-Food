@@ -1,25 +1,17 @@
 
-You must have at least 10 substantive commits per group member that are marked "feature".  Any fixes to "features" must be marked as fixes and do not count.  Commits for creating files or renaming files or other non-feature work should be named "task".  
-Commit message Examples:
-Feature:  Added definition of the term repository.
-Fix: Updated definition of repository
-Task: Uploaded an image screenshot for a repository
-Testing - Created a new branch
-Project Description
-For this project, you need to explain how the usage of Git, Docker, automated testing, and continuous integration can improve the productivity and competitiveness of a company.  Your group also needs to have 2-3 (depending on group size) sections about the following topics:  
-You must explain the gitFlow (Links to an external site.) workflow and have a section to define and give examples of how to use the following Git commands and terminology:
-##WORK ON THESE COMMANDS##
-Repository: 
+
 What is a Repository?
 My definition for this command is captured in red font in the screenshot below.
  
 The below shows the created content of a Repository File or Folder
 
 
-###GitFlow workflow### is a tree-like architecture or a file structure that Git uses, where there is a reporsitory and a working copy of that repository. In order to move files between the repository and a working copy, 
+###GitFlow workflow
+
+It is a tree-like architecture or a file structure that Git uses, where there is a reporsitory and a working copy of that repository. In order to move files between the repository and a working copy, 
  
 
-###Repository###:
+###Repository:
 After Git has been installed and configured, next is to put Git in the appropriate condition to start its operation. That is asking Git to start tracking changes in a particular project. We need to however decide where to put the project for Git to start tracking. This location is called a Repository. The repository can be a new folder created in a Windows directory on a Desktop.
 
 The folder can be accessed via the command line by changing in to the windows directory in which that folder was created. Once in the root of the folder via the command Line, entering - Git init will tell Git to get everything ready to start doing its tracking.
@@ -32,33 +24,35 @@ A repository can also be created in the User Interface from the home screen afte
         Instead of using a single server-side repository to act as the “central” codebase, forking gives every developer a server-side repository. This means that each contributor has not one, but two Git repositories: a private local one and a public server-side one.
         
  
-###Clone###
+###Clone
 A clone is a copy or the act of making a copy of a repository, for example, a copy of the the master branch. When a clone is made, files can be edited and Git will track the different changes made. The repository that was cloned is still connected to the remote version such that that changes that were made locally can be pushed to the remote to keep them synced.
 
-###Branch###:
+###Branch:
 A branch represents an independent line of development. It is thought of as a way to request a brand new working directory, staging area, and project history. New commits are recorded in the history for the current branch, which results in a fork in the history of the project.
 Getting the most out of Git will mean using branches often and effectively. Branches are easy to create, work with, delete and allow testing of different ideas. Assuming working on a project, and suddenly an idea comes to mind. Though uncertain if the new idea will work or not, instead of making lots of commit to the master branche and undoing <del>or reverting</del> the changes, a new branch can be created and the new idea test there on. And if the ideas do not work, the branch can be deleted and the master branch would not have been affected by the chnages. However if the idea does workout, those changes can be brought back to the master branch through a process called merging.
 
 
 
-###Commit###: 
+###Commit: 
 Commit implies telling Git to track the individual change to a file (or set of files). When a commit is made to save a work, Git creates a unique ID called "hash" that allows the keeping of record of the specific changes commited along with who made them and when. Commits usually contain a commit message which is a brief description of what changes were made 
 
 
  
-###Merge###
+###Merge
 Merging is a way of combining the work from two different branches together where a branch was created to develop a new feature and then combined back in to the main branch or master branch.
 
 
-###Checkout###
-###Push###
+###Checkout
+
+###Push
 The git push command is used to upload local repository content to a remote repository. Pushing is how commits are transfered from a  local repository on to a remote repository.
 - It uses the following command: git push <remote> <branch>
 
 
 
-Pull 
-###Remote###
+###Pull 
+
+###Remote
 Remote allows us to collaborate with others.
       Remote Add / Remove / Show
 Status
@@ -66,23 +60,6 @@ Master Branch
 
 
 
-The trick with this assignment it not to have a lot of text to commit you want small commits like one definition at t a time.  You have to think 2 things:
-You just want to have to edit a little bit of text to resolve a merge conflict
-You don’t want merge conflicts and you avoid merge conflicts by not having the same text on a line
-The basic steps are
-
-Create a repo
-Everyone clones to their clocks
-Create a branch for the task / definition
-On your local do a commit on the Branch
-Push to the branch to GitHub
-Create a pull request for the branch to be merged
-Merge the branch to master
-Everyone pulls the master branch
-Repeat for the next tasks
-You will need to add all team members to the repo using the settings menu so everyone can push
-
-Notes you can also fork a repo to your own and then clone and this makes it so you don’t have to add everyone to the main repo.  But when you create a pull request you got to click this link that says “compare across forks” so you can pick out branches from other forks
 
 
 - [x] Repository
@@ -95,6 +72,7 @@ Notes you can also fork a repo to your own and then clone and this makes it so y
 - [ ] Push
 - [ ] Pull
 - [ ] Remote
+
         Add
         
         Remove
