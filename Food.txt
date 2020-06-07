@@ -7,3 +7,38 @@ Kokonte
 Abolo
 Ademe
 Tuo Zaafi
+
+creating a check box
+- [ ] This item is pending
+- [x] Additional info added
+
+Bullet
+ - This is my text.
+
+URL
+[Links](www.mail.aol.com)
+
+Bold
+**This Text is Bold**
+
+Italics
+*Italicized*
+
+Delete
+<del>Cross out this Text</del>.
+
+Adding a Header (six sizes)
+# This is the largest Text
+###### This is the smallest Text
+
+Adding an Image or URL
+![Steps to add a new repository](https://raw.githubusercontent.com/pyruskimo/LarryTaiyeImages/master/TestImage1.PNG)
+
+
+Emojis: You can type : and then begin to type the name of an emoji - 
+:heart: - Heart
+:+1: - Thumbs up
+:sparkles:
+:tada:
+
+Ordered List
