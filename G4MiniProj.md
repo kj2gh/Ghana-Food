@@ -47,6 +47,8 @@ Merging is a way of combining the work from two different branches together wher
 ## Push
 The git push command is used to upload local repository content to a remote repository. Pushing is how commits are transfered from a  local repository on to a remote repository.
 - It uses the following command: git push <remote> <branch>
+ 
+ 
 
 
 
@@ -81,3 +83,13 @@ Master Branch
         
 - [ ] Status
 - [ ] Master branch
+
+
+
+[Reference](https://guides.github.com/introduction/git-handbook/)
+
+[Reference](https://www.atlassian.com/git/tutorials/using-branches)
+
+[Reference](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+
+[Reference](https://www.atlassian.com/git/tutorials)
