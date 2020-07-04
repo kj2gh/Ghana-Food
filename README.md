@@ -1,2 +1,3 @@
 # Ghana-Food
-Ghanaian Food List
+|Ghanaian | Food List People|
+|:--------|:----------------|
